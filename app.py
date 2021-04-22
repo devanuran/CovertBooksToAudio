@@ -23,7 +23,7 @@ def get_pdf():
         full_text = ""
         reader = PyPDF2.PdfFileReader(file)
         audio_reader = pyttsx3.init()
-        audio_reader.setProperty("rate", 150)
+        audio_reader.setProperty("rate", 150)       # This is the speed of reader.
 
         for page in range(reader.numPages):
             next_page = reader.getPage(page)
