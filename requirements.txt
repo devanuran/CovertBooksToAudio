@@ -7,3 +7,5 @@ pytz==2020.4
 sqlparse==0.4.1
 
 flask==2.0.1
+
+pyttsx3==2.7
